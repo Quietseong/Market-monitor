@@ -1,0 +1,12 @@
+# 배포용 저장소: 실행에 필요한 파일만 올린다. 개발 문서·검증 기록·테스트·도구는 로컬에만 둔다.
+/*
+!/.gitignore
+!/README.md
+!/.env.example
+!/assets/
+!/market_monitor/
+
+__pycache__/
+*.py[cod]
+market_monitor/web/.hallmark/
+market_monitor/web/tokens.css

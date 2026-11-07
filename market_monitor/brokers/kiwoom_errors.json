@@ -1,0 +1,187 @@
+[
+  {
+    "code": "1501",
+    "category": "2",
+    "template": "API ID가 Null이거나 값이 없습니다"
+  },
+  {
+    "code": "1504",
+    "category": "1",
+    "template": "해당 URI에서는 지원하는 API ID가 아닙니다. API ID={?}, URI={?}"
+  },
+  {
+    "code": "1505",
+    "category": "2",
+    "template": "해당 API ID는 존재하지 않습니다. API ID={?}"
+  },
+  {
+    "code": "1511",
+    "category": "2",
+    "template": "필수 입력 값에 값이 존재하지 않습니다. 필수입력 파라미터={?}"
+  },
+  {
+    "code": "1512",
+    "category": "2",
+    "template": "Http header에 값이 설정되지 않았거나 읽을 수 없습니다"
+  },
+  {
+    "code": "1513",
+    "category": "2",
+    "template": "Http Header에 authorization 필드가 설정되어 있어야 합니다"
+  },
+  {
+    "code": "1514",
+    "category": "2",
+    "template": "입력으로 들어온 Http Header의 authorization 필드 형식이 맞지 않습니다"
+  },
+  {
+    "code": "1515",
+    "category": "2",
+    "template": "Http Header의 authorization 필드 내 Grant Type이 미리 정의된 형식이 아닙니다"
+  },
+  {
+    "code": "1516",
+    "category": "2",
+    "template": "Http Header의 authorization 필드 내 Token이 정의되어 있지 않습니다"
+  },
+  {
+    "code": "1517",
+    "category": "2",
+    "template": "입력 값 형식이 올바르지 않습니다. 파라미터={?} 실패사유= {?}"
+  },
+  {
+    "code": "1687",
+    "category": "7",
+    "template": "재귀 호출이 발생하여 API 호출을 제한합니다, API ID={?}"
+  },
+  {
+    "code": "1700",
+    "category": "5",
+    "template": "허용된 API 요청 개수를 초과하였습니다. 유량={?}, API ID={?}"
+  },
+  {
+    "code": "1701",
+    "category": "5",
+    "template": "허용된 전체 요청 개수를 초과하였습니다. 총유량={?}"
+  },
+  {
+    "code": "1702",
+    "category": "5",
+    "template": "허용된 그룹 요청 개수를 초과하였습니다. 총유량={?}, API_ID={?}"
+  },
+  {
+    "code": "1901",
+    "category": "7",
+    "template": "시장 코드값이 존재하지 않습니다. 종목코드={?}"
+  },
+  {
+    "code": "1902",
+    "category": "7",
+    "template": "종목 정보가 없습니다. 입력한 종목코드 값을 확인바랍니다. 종목코드={?}"
+  },
+  {
+    "code": "1903",
+    "category": "7",
+    "template": "종목 정보가 없습니다. 입력한 종목코드, 거래소구분 값을 확인바랍니다. 거래소구분={?}, 종목코드={?}"
+  },
+  {
+    "code": "1999",
+    "category": "7",
+    "template": "예기치 못한 에러가 발생했습니다. 실패사유={?}"
+  },
+  {
+    "code": "8001",
+    "category": "3",
+    "template": "App Key와 Secret Key 검증에 실패했습니다"
+  },
+  {
+    "code": "8002",
+    "category": "3",
+    "template": "App Key와 Secret Key 검증에 실패했습니다. 실패사유={?}"
+  },
+  {
+    "code": "8003",
+    "category": "3",
+    "template": "Access Token을 조회하는데 실패했습니다. 실패사유={?}"
+  },
+  {
+    "code": "8005",
+    "category": "3",
+    "template": "Token이 유효하지 않습니다"
+  },
+  {
+    "code": "8006",
+    "category": "7",
+    "template": "Access Token을 생성하는데 실패했습니다. 실패사유={?}"
+  },
+  {
+    "code": "8009",
+    "category": "7",
+    "template": "Access Token을 발급하는데 실패했습니다. 실패사유={?}"
+  },
+  {
+    "code": "8010",
+    "category": "3",
+    "template": "Token을 발급받은 IP와 서비스를 요청한 IP가 동일하지 않습니다"
+  },
+  {
+    "code": "8011",
+    "category": "7",
+    "template": "Access Token을 발급하는데 실패했습니다. 입력값에 grant_type이 들어오지 않았습니다"
+  },
+  {
+    "code": "8012",
+    "category": "7",
+    "template": "Access Token을 발급하는데 실패했습니다. grant_type의 값이 맞지 않습니다"
+  },
+  {
+    "code": "8015",
+    "category": "7",
+    "template": "Access Token을 폐기하는데 실패했습니다. 실패사유={?}"
+  },
+  {
+    "code": "8016",
+    "category": "7",
+    "template": "Access Token을 폐기하는데 실패했습니다. 입력값에 Token이 들어오지 않았습니다"
+  },
+  {
+    "code": "8020",
+    "category": "2",
+    "template": "입력파라미터로 appkey 또는 secretkey가 들어오지 않았습니다."
+  },
+  {
+    "code": "8030",
+    "category": "2",
+    "template": "투자구분(실전/모의)이 달라서 Appkey를 사용할수가 없습니다"
+  },
+  {
+    "code": "8031",
+    "category": "2",
+    "template": "투자구분(실전/모의)이 달라서 Token를 사용할수가 없습니다"
+  },
+  {
+    "code": "8040",
+    "category": "3",
+    "template": "단말기 인증에 실패했습니다"
+  },
+  {
+    "code": "8050",
+    "category": "3",
+    "template": "IP가 등록되지 않았습니다. 키움 REST API 홈페이지 > API 사용신청 화면에서 IP를 등록해주세요."
+  },
+  {
+    "code": "8103",
+    "category": "3",
+    "template": "토큰 인증 또는 단말기인증에 실패했습니다. 실패사유={?}"
+  },
+  {
+    "code": "8104",
+    "category": "2",
+    "template": "모의투자에서 지원하지 않는 API 입니다."
+  },
+  {
+    "code": "8200",
+    "category": "1",
+    "template": "법인 고객은 해당 API를 지원하지 않습니다. API ID={?}, URI={?}"
+  }
+]
